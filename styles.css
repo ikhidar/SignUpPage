@@ -1,0 +1,25 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:darkgray;
+    margin: 20px;
+}
+h1{
+    text-align: center;
+    color: purple;
+}
+legend{
+    font-weight: bold;
+    color:purple;
+}
+fieldset{
+    color: purple;
+}
+#passwordSug{
+    color:black
+}
+input[type="text"], input[type="password"], input[type="submit"], select{
+    border-radius: 4px;
+    border: 2px solid purple;
+    box-sizing: border-box;
+    accent-color: purple;
+}
